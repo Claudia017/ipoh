@@ -1,0 +1,152 @@
+html {
+    --color-primario: #4d345a;
+    --color-secundario: #bd5881;
+    --color-terciario: #ffc3be8a;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times;
+}
+header, main, aside {
+    margin: 6em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    margin: 4em;
+}
+header h1 {
+    font-size: 40px;
+    padding: 1.5rem;
+    color:#4d345a;
+}
+nav {
+    border: 1px solid var(--color-primario);
+    border-radius: 2rem;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    max-height: fit-content;
+    background-color: var(--color-terciario);
+}
+nav div {
+    padding: 7px 10px;
+    margin: 5px;
+    font-size: large;
+}
+main {
+    margin-top: 3em;
+}
+main dt {
+    font-weight: bold;
+}
+main dd {
+    text-indent: 3%;
+}
+h2 {
+    margin: 1rem;
+    color:#bd5881;
+    margin-top: 3rem;
+}
+a {
+    color: var(--color-primario);
+}
+header a:hover,
+header a:focus {
+    background-color: var(--color-primario);
+    color: var(--color-terciario);
+    cursor: pointer;
+}
+.diff {
+    background-color: var(--color-terciario);
+}
+table {
+    border-collapse: collapse;
+}
+h3 {
+    color:#773c59;
+    margin: 1em 0;
+}
+ul,ol {
+    margin-left: 1.5em;
+    margin: 1em;
+}
+footer {
+    background-color: #333;
+    height: 100px;
+}
+footer p {
+    padding-top: 30px;
+    text-align: center;
+}
+footer a {
+    font-weight: bold;
+    color: white;
+    padding: 0.2rem;
+}
+footer a:hover,
+footer a:focus {
+    background-color: whitesmoke;
+    color: #333;
+    cursor: pointer;
+}
+dl {
+    margin-left: 1rem;
+}
+main ul, main ol {
+    margin-left: 2.5rem;
+}
+dt {
+    margin-top: 0.5rem;
+}
+em {
+    font-weight: bold;
+    font-style: none;
+}
+table tr:nth-child(odd) {
+    background-color: var(--color-terciario);
+}
+table {
+    border: 1px solid rgb(142, 142, 142);
+    margin: 0 auto;
+    margin-top: 3%;
+}
+th, td {
+    text-align: center;
+    padding: 2%;
+    border: 0.5px solid rgb(142, 142, 142);
+}
+td {
+    width:15%;
+}
+.no {
+    color:rgb(166, 31, 31);
+}
+.si {
+    color: rgb(13, 87, 17);
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+aside div {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    border: 1px solid rgb(142, 142, 142); */
+    margin: 5%;
+}
+div img {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
